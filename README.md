@@ -1,5 +1,6 @@
 # AIRLINE-SENTIMENT-ANALYSIS
 
+<img src="group5_header.jpg" />
 ## BUSINESS OVERVIEW
 
 ### INTRODUCTION
