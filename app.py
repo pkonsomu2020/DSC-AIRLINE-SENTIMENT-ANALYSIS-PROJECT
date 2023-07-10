@@ -4,11 +4,11 @@ from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 
 # Load the pre-trained model and vectorizer
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('STREAMLIT DEPLOYMENT\model.pkl', 'rb'))
 vectorizer = CountVectorizer()
 
 # Set the page title
-st.title("Airline Sentiment Analysis and Churn Prediction")
+st.title("AIRLINE SENTIMENT ANALYSIS")
 
 # Get user input for sentiment analysis
 user_input = st.text_input("Enter a sentence to analyze the sentiment")
@@ -16,7 +16,7 @@ user_input = st.text_input("Enter a sentence to analyze the sentiment")
 # Get user input for churn prediction
 user_input_churn = st.text_input("Enter a sentence to predict churn")
 
-data = pd.read_csv("Airline-Sentiment-2-w-AA.csv", encoding='latin-1')
+data = pd.read_csv("STREAMLIT DEPLOYMENT/Airline-Sentiment-2-w-AA.csv", encoding='latin-1')
 # Fit the vectorizer on the data
 vectorizer.fit(data['text'])
 
