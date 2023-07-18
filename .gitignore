@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # ignore all csv files
-*.csv
+# *.csv
 
 # ignore all pickle files
-*.pkl
+# *.pkl
