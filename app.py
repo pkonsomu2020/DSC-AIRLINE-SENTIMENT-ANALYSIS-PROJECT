@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 
 # Load the pre-trained model and vectorizer
-model = pickle.load(open('STREAMLIT DEPLOYMENT/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 vectorizer = CountVectorizer()
 
 # Set the page title
